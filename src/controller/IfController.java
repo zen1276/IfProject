@@ -1,6 +1,6 @@
 package controller;
 
-public class controller
+public class IfController
 {
 	public void start()
 	{

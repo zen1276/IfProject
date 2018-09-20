@@ -1,10 +1,10 @@
 package controller;
 
-public class runner
+public class IfRunner
 {
 	public static void main(String[]args)
 	{
-		controller app = new controller();
+		IfController app = new IfController();
 		app.start();
 	}
 }
