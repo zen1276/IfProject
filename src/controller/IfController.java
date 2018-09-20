@@ -1,7 +1,7 @@
 package controller;
 
 //--------- Import Section --------
-import model.IfProperties;
+import model.SeaOfThieves;
 import javax.swing.JOptionPane;
 
 public class IfController
