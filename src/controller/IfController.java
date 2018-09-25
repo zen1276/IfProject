@@ -56,13 +56,13 @@ public class IfController
 	private void askUser()
 	{
 		//--------user hours played
-		String response = JOptionPane.showInputDialog(null, "How many hours??");
 		SeaOfThieves userHours = new SeaOfThieves();
+		String response = JOptionPane.showInputDialog(null, "How many hours??");
 		while (!validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userHours.setTimeHours(Integer.parseInt(response));
+		userHours.setTimeHours(Double.parseDouble(response));
 		
 		
 		//----------user order of souls lvl
