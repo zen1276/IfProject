@@ -19,10 +19,10 @@ public class IfController
 	 */
 	public void start()
 	{
-		loopy();
+		askUser();
 	}
 	
-	private void loopy()
+	/*private void loopy()
 	{
 		//----Define variable before loop
 		boolean isDone = false;
@@ -51,16 +51,58 @@ public class IfController
 		{
 			JOptionPane.showInternalMessageDialog(null, "The loop value is: " + loop);
 		}	
-	}
+	}*/
 	
 	private void askUser()
 	{
+		//--------user hours played
 		String response = JOptionPane.showInputDialog(null, "How many hours??");
-		
+		SeaOfThieves userHours = new SeaOfThieves();
 		while (!validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
+		userHours.setTimeHours(Integer.parseInt(response));
+		
+		
+		//----------user order of souls lvl
+		response = JOptionPane.showInputDialog(null, "What is your Order of Souls level now?");
+		SeaOfThieves userOrderSouls = new SeaOfThieves();
+		while (!validDouble(response))
+		{
+			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
+		}
+		userOrderSouls.setOrderSouls(Double.parseDouble(response));
+		
+		
+		//----------user merchant alliance lvl
+		response = JOptionPane.showInputDialog(null, "What is your Merchant's Alliance level now?");
+		SeaOfThieves userMerchant = new SeaOfThieves();
+		while (!validDouble(response))
+		{
+			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
+		}
+		userMerchant.setMerchant(Double.parseDouble(response));
+		
+		
+		//-----------user gold hoarder's level
+		response = JOptionPane.showInputDialog(null, "What is your Gold Hoarder's level now?");
+		SeaOfThieves userGoldHoarder = new SeaOfThieves();
+		while(!validDouble(response))
+		{
+			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
+		}
+		userGoldHoarder.setGoldLvl(Double.parseDouble(response));
+		
+		
+		//------------user gold earned
+		response = JOptionPane.showInputDialog(null, "How much gold did you earn in this session?");
+		SeaOfThieves userGoldEarned = new SeaOfThieves();
+		while(!validInt(response))
+		{
+			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
+		}
+		userGoldEarned.setGoldEarned(Integer.parseInt(response));
 	}
 	
 	public boolean validInt(String maybeInt)
