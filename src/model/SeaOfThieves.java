@@ -93,14 +93,14 @@ public class SeaOfThieves
 		this.timeMinutes = minutes;
 	}	*/
 	
-	public void setTimeHours(int hours)
+	public void setTimeHours(double hours)
 	{
 		this.timeHours = hours;
 	}
 	//-------------end setters------------
 	
-	public void updateTime(int hours, int minutes)
+/*	public void updateTime(int hours, int minutes)
 	{
 		
-	}
+	}*/
 }
