@@ -7,8 +7,8 @@ public class SeaOfThieves
 	private double merchantAllianceLvl;
 	private double goldHoardersLvl;
 	private int goldEarned;
-	private int timeMinutes;
-	private int timeHours;
+//	private int timeMinutes;
+	private double timeHours;
 	
 	/**
 	 * Default constructor for after the fact customization.
@@ -21,8 +21,8 @@ public class SeaOfThieves
 		this.merchantAllianceLvl = -10.0;
 		this.goldHoardersLvl = -10.0;
 		this.goldEarned = -123;
-		this.timeMinutes = -23;
-		this.timeHours = -342;
+//		this.timeMinutes = -23;
+		this.timeHours = -342.0;
 	}
 	
 	/**
@@ -56,10 +56,10 @@ public class SeaOfThieves
 		return goldEarned;
 	}
 	
-	public int getTimeMinutes()
+/*	public int getTimeMinutes()
 	{
 		return timeMinutes;
-	}
+	}   */
 	
 	public int getTimeHours()
 	{
@@ -88,10 +88,10 @@ public class SeaOfThieves
 		this.goldEarned = gold;
 	}
 	
-	public void setTimeMinutes(int minutes)
+/*	public void setTimeMinutes(int minutes)
 	{
 		this.timeMinutes = minutes;
-	}
+	}	*/
 	
 	public void setTimeHours(int hours)
 	{
