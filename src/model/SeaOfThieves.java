@@ -61,7 +61,7 @@ public class SeaOfThieves
 		return timeMinutes;
 	}   */
 	
-	public int getTimeHours()
+	public double getTimeHours()
 	{
 		return timeHours;
 	}
