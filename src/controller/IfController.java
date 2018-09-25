@@ -55,11 +55,11 @@ public class IfController
 	
 	private void askUser()
 	{
-		String response = JOptionPane.showInputDialog, "How many hours??";
+		String response = JOptionPane.showInputDialog(null, "How many hours??");
 		
 		while (!validDouble(response))
 		{
-			
+			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
 	}
 	
