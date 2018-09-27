@@ -60,7 +60,7 @@ public class IfController
 		//--------user hours played
 		SeaOfThieves userHours = new SeaOfThieves();
 		String response = JOptionPane.showInputDialog(null, "How many hours??");
-		while (!validDouble(response))
+		while (response == null || !validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
@@ -71,7 +71,7 @@ public class IfController
 		//----------user order of souls lvl
 		response = JOptionPane.showInputDialog(null, "What is your Order of Souls level now?");
 		SeaOfThieves userOrderSouls = new SeaOfThieves();
-		while (!validDouble(response))
+		while (response == null || !validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
@@ -82,7 +82,7 @@ public class IfController
 		//----------user merchant alliance lvl
 		response = JOptionPane.showInputDialog(null, "What is your Merchant's Alliance level now?");
 		SeaOfThieves userMerchant = new SeaOfThieves();
-		while (!validDouble(response))
+		while (response == null || !validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
@@ -93,7 +93,7 @@ public class IfController
 		//-----------user gold hoarder's level
 		response = JOptionPane.showInputDialog(null, "What is your Gold Hoarder's level now?");
 		SeaOfThieves userGoldHoarder = new SeaOfThieves();
-		while(!validDouble(response))
+		while(response == null || !validDouble(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
@@ -104,7 +104,7 @@ public class IfController
 		//------------user gold earned
 		response = JOptionPane.showInputDialog(null, "How much gold did you earn in this session?");
 		SeaOfThieves userGoldEarned = new SeaOfThieves();
-		while(!validInt(response))
+		while(response == null || !validInt(response))
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
