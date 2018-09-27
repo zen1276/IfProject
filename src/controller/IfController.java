@@ -22,7 +22,7 @@ public class IfController
 		askUser();
 	}
 	
-	/*private void loopy()
+	private void loopy()
 	{
 		//----Define variable before loop
 		boolean isDone = false;
@@ -47,11 +47,13 @@ public class IfController
 			compNumber++;
 		}
 		
-		for (int loop = 0; loop < 30; loop += 2)
+		for (int loop = 4; loop < 7; loop += 1)
 		{
-			JOptionPane.showInternalMessageDialog(null, "The loop value is: " + loop);
+			JOptionPane.showInternalMessageDialog(null, "This is the " + loop + "'th Run object I'm making");
+			String runnerLoop = JOptionPane.showInputDialog(null, "Enter some data for the loop");
+			
 		}	
-	}*/
+	}
 	
 	private void askUser()
 	{
@@ -63,6 +65,7 @@ public class IfController
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
 		userHours.setTimeHours(Double.parseDouble(response));
+		JOptionPane.showMessageDialog(null, userHours);
 		
 		
 		//----------user order of souls lvl
@@ -73,6 +76,7 @@ public class IfController
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
 		userOrderSouls.setOrderSouls(Double.parseDouble(response));
+		JOptionPane.showMessageDialog(null, userOrderSouls);
 		
 		
 		//----------user merchant alliance lvl
@@ -83,6 +87,7 @@ public class IfController
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
 		userMerchant.setMerchant(Double.parseDouble(response));
+		JOptionPane.showMessageDialog(null, userMerchant);
 		
 		
 		//-----------user gold hoarder's level
@@ -93,6 +98,7 @@ public class IfController
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
 		userGoldHoarder.setGoldLvl(Double.parseDouble(response));
+		JOptionPane.showMessageDialog(null, userGoldHoarder);
 		
 		
 		//------------user gold earned
@@ -102,7 +108,8 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userGoldEarned.setGoldEarned(Integer.parseInt(response));
+		userGoldEarned.setGoldEarned(Integer.parseInt(response));		
+		JOptionPane.showMessageDialog(null, userGoldEarned);
 	}
 	
 	public boolean validInt(String maybeInt)
