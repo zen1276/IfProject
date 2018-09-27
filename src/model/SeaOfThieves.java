@@ -103,4 +103,17 @@ public class SeaOfThieves
 	{
 		
 	}*/
+
+	public string toString()
+	{
+		String description = "This is what happened in your last session of Sea of Thieves.";
+		description += " You played for " + timeHours + " hours.";
+		description += " Your Gold Hoarders level is now at " + goldHoardersLvl + ".";
+		description += " Your Order of Souls level is now " + orderOfSoulsLvl + ".";
+		description += " And your Merchant's Alliance level has now reached " + merchantAllianceLvl + ".";
+		description += " And in your " + timeHours + " hours of playing, you earned " + goldEarned + " gold";
+		return description;
+	}
+
 }
+
