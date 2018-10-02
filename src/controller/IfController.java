@@ -6,12 +6,14 @@ import javax.swing.JOptionPane;
 
 public class IfController
 {
+	private SeaOfThieves userSession;
+	
 	/**
 	 * Builds the instance of the controller
 	 */
 	public IfController()
 	{
-		
+		userSession = new SeaOfThieves();
 	}
 	
 	/**
@@ -50,9 +52,16 @@ public class IfController
 		for (int loop = 4; loop < 7; loop += 1)
 		{
 			JOptionPane.showInternalMessageDialog(null, "This is the " + loop + "'th Run object I'm making");
-			String runnerLoop = JOptionPane.showInputDialog(null, "Enter some data for the loop");
-			
-		}	
+			String runnerLoop = JOptionPane.showInputDialog(null, "Enter some data for the loop");			
+		}
+		
+		for (int loopVariable = 60; loopVariable > 42; loopVariable --)
+		{
+			JOptionPane.showInternalMessageDialog(null, "The number is " + loopVariable + " which is greater than 42, so we subtract one, and we will get...");
+		}
+		
+		
+		
 	}
 	
 	private void askUser()
@@ -64,8 +73,8 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userHours.setTimeHours(Double.parseDouble(response));
-		JOptionPane.showMessageDialog(null, userHours);
+		userSession.setTimeHours(Double.parseDouble(response));
+//		JOptionPane.showMessageDialog(null, userHours);
 		
 		
 		//----------user order of souls lvl
@@ -75,8 +84,8 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userOrderSouls.setOrderSouls(Double.parseDouble(response));
-		JOptionPane.showMessageDialog(null, userOrderSouls);
+		userSession.setOrderSouls(Double.parseDouble(response));
+//		JOptionPane.showMessageDialog(null, userOrderSouls);
 		
 		
 		//----------user merchant alliance lvl
@@ -86,8 +95,8 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userMerchant.setMerchant(Double.parseDouble(response));
-		JOptionPane.showMessageDialog(null, userMerchant);
+		userSession.setMerchant(Double.parseDouble(response));
+//		JOptionPane.showMessageDialog(null, userMerchant);
 		
 		
 		//-----------user gold hoarder's level
@@ -97,8 +106,8 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userGoldHoarder.setGoldLvl(Double.parseDouble(response));
-		JOptionPane.showMessageDialog(null, userGoldHoarder);
+		userSession.setGoldLvl(Double.parseDouble(response));
+//		JOptionPane.showMessageDialog(null, userGoldHoarder);
 		
 		
 		//------------user gold earned
@@ -108,8 +117,9 @@ public class IfController
 		{
 			response = JOptionPane.showInputDialog(null, "Dude, come on bro, type in the valid number here man.");
 		}
-		userGoldEarned.setGoldEarned(Integer.parseInt(response));		
-		JOptionPane.showMessageDialog(null, userGoldEarned);
+		userSession.setGoldEarned(Integer.parseInt(response));		
+		
+		JOptionPane.showMessageDialog(null, userSession);
 	}
 	
 	public boolean validInt(String maybeInt)
