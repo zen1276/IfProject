@@ -3,6 +3,7 @@ package controller;
 //--------- Import Section --------
 import model.SeaOfThieves;
 import javax.swing.JOptionPane;
+import java.util.ArrayList;
 
 public class IfController
 {
@@ -61,6 +62,40 @@ public class IfController
 		}
 		
 		
+		
+	}
+	
+	private void lotsOfPirates()
+	{
+		//local variables are only visible in the method they are defined in.
+		//They only have SCOPE to that method
+		
+		ArrayList<SeaOfThieves> myPirates = new ArrayList<SeaOfThieves>();
+				
+		SeaOfThieves samplePirate = new SeaOfThieves();
+		SeaOfThieves otherPirate = new SeaOfThieves();
+		myPirates.add(samplePirate);
+		myPirates.add(samplePirate);
+		myPirates.add(otherPirate);
+		
+		// Standard forward loop
+		for (int index = 0; index < myPirates.size(); index += 1)
+		{
+			SeaOfThieves currentPirate = myPirates.get(index);
+			currentPirate.setGoldEarned(index * currentPirate.getGoldEarned());
+		}
+		
+/*		//Standard backward loop
+		for (int index = myPirates.size() - 1; index >= 0; index -=1)
+		{
+			
+		} 								*/
+		
+		for (SeaOfThieves current : myPirates)
+		{
+			JOptionPane.showMessageDialog(null, "The time in hours played is: " + current.getTimeHours());
+			
+		}
 		
 	}
 	
