@@ -103,6 +103,72 @@ public class IfController
 	{
 		ArrayList<SeaOfThieves> islandsVisited = new ArrayList<SeaOfThieves>();
 		
+		SeaOfThieves SmugglersBay = new SeaOfThieves();
+		SeaOfThieves SaltyIslands = new SeaOfThieves();
+		SeaOfThieves BlackSandAtoll = new SeaOfThieves();
+		SeaOfThieves MaraudersArch = new SeaOfThieves();
+		SeaOfThieves OldFaithfulIsle = new SeaOfThieves();
+		SeaOfThieves ScurvyIsley = new SeaOfThieves();
+		SeaOfThieves PicaroonPalms = new SeaOfThieves();
+		SeaOfThieves SailorsBounty = new SeaOfThieves();
+		SeaOfThieves SandyShallows = new SeaOfThieves();
+		SeaOfThieves BoulderCay = new SeaOfThieves();
+		SeaOfThieves SharkFinCamp = new SeaOfThieves();
+		SeaOfThieves BlackWaterEnclave = new SeaOfThieves();
+		SeaOfThieves PlunderersPlight = new SeaOfThieves();
+		SeaOfThieves BlindMansLagoon = new SeaOfThieves();
+		SeaOfThieves KrakenWatchtower = new SeaOfThieves();
+		SeaOfThieves LoneCove = new SeaOfThieves();
+		SeaOfThieves KeelHaulFort = new SeaOfThieves();
+		SeaOfThieves SanctuaryOutpost = new SeaOfThieves();
+		SeaOfThieves SunkenGrove = new SeaOfThieves();
+		SeaOfThieves DaggerToothOutpost = new SeaOfThieves();
+		SeaOfThieves RapierCay = new SeaOfThieves();
+		SeaOfThieves LonelyIsle = new SeaOfThieves();
+		SeaOfThieves HiddenSpringKeep = new SeaOfThieves();
+		SeaOfThieves GalleonsGraveOutpost = new SeaOfThieves();
+		SeaOfThieves IsleOfLastWords = new SeaOfThieves();
+		SeaOfThieves CrescentIsle = new SeaOfThieves();
+		SeaOfThieves CannonCove = new SeaOfThieves();
+		SeaOfThieves RumRunnerIsle = new SeaOfThieves();
+		SeaOfThieves SkullKeep = new SeaOfThieves();
+		SeaOfThieves TriRockIsle = new SeaOfThieves();
+		SeaOfThieves ShipwreckBay = new SeaOfThieves();
+		SeaOfThieves LiarsBackbone = new SeaOfThieves();
+		SeaOfThieves ShiverRetreat = new SeaOfThieves();
+		SeaOfThieves CrookedMasts = new SeaOfThieves();
+		SeaOfThieves TwinGroves = new SeaOfThieves();
+		SeaOfThieves SeaDogsRest = new SeaOfThieves();
+		SeaOfThieves KrakensFall = new SeaOfThieves();
+		SeaOfThieves SharkToothKey = new SeaOfThieves();
+		SeaOfThieves WanderersRefuge = new SeaOfThieves();
+		SeaOfThieves LagoonOfWhispers = new SeaOfThieves();
+		SeaOfThieves MermaidsHideaway = new SeaOfThieves();
+		SeaOfThieves CastawayIsle = new SeaOfThieves();
+		SeaOfThieves OldBootFort = new SeaOfThieves();
+		SeaOfThieves FoolsLagoon = new SeaOfThieves();
+		SeaOfThieves SailorsKnotStronghold = new SeaOfThieves();
+		SeaOfThieves BarnacleClay = new SeaOfThieves();
+		SeaOfThieves CrooksHollow = new SeaOfThieves();
+		SeaOfThieves SnakeIsland = new SeaOfThieves();
+		SeaOfThieves ChickenIsle = new SeaOfThieves();
+		SeaOfThieves PlunderValley = new SeaOfThieves();
+		SeaOfThieves AncientSpireOutpost = new SeaOfThieves();
+		SeaOfThieves ParadiseSpring = new SeaOfThieves();
+		SeaOfThieves LostGoldFort = new SeaOfThieves();
+		SeaOfThieves DiscoveryRidge = new SeaOfThieves();
+		SeaOfThieves PlunderOutpost = new SeaOfThieves();
+		SeaOfThieves CutlassCay = new SeaOfThieves();
+		SeaOfThieves CrowsNestFortress = new SeaOfThieves();
+		SeaOfThieves OldSaltsAtoll = new SeaOfThieves();
+		SeaOfThieves SharkBaitCove = new SeaOfThieves();
+		SeaOfThieves ThievesHaven = new SeaOfThieves();
+		SeaOfThieves MutineerRock = new SeaOfThieves();
+		SeaOfThieves DevilsRidge = new SeaOfThieves();
+		SeaOfThieves BootyIsle = new SeaOfThieves();
+		SeaOfThieves LookoutPoint = new SeaOfThieves();
+		
+		
 		
 		
 		
