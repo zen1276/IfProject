@@ -89,13 +89,22 @@ public class IfController
 		for (int index = myPirates.size() - 1; index >= 0; index -=1)
 		{
 			
-		} 								*/
-		
+		} 								
+*/		
 		for (SeaOfThieves current : myPirates)
 		{
 			JOptionPane.showMessageDialog(null, "The time in hours played is: " + current.getTimeHours());
 			
 		}
+		
+	}
+	
+	private void whichIslands()
+	{
+		ArrayList<SeaOfThieves> islandsVisited = new ArrayList<SeaOfThieves>();
+		
+		
+		
 		
 	}
 	
