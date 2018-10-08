@@ -102,7 +102,8 @@ public class IfController
 	private void whichIslands()
 	{
 		ArrayList<SeaOfThieves> islandsVisited = new ArrayList<SeaOfThieves>();
-		
+
+		// 63 objects created for the 63 islands in sea of thieves
 		SeaOfThieves SmugglersBay = new SeaOfThieves();
 		SeaOfThieves SaltyIslands = new SeaOfThieves();
 		SeaOfThieves BlackSandAtoll = new SeaOfThieves();
