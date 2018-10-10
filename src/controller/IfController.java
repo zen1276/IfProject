@@ -25,6 +25,9 @@ public class IfController
 		askUser();
 	}
 	
+	/**
+	 * loops teaches the basics on how to use loops in JAVA
+	 */
 	private void loopy()
 	{
 		//----Define variable before loop
@@ -64,7 +67,9 @@ public class IfController
 		
 		
 	}
-	
+	/**
+	 * The basic info on how to use an arraylist
+	 */
 	private void lotsOfPirates()
 	{
 		//local variables are only visible in the method they are defined in.
@@ -104,7 +109,7 @@ public class IfController
 		ArrayList<SeaOfThieves> islandsVisited = new ArrayList<SeaOfThieves>();
 
 		// 63 objects created for the 63 islands in sea of thieves
-		SeaOfThieves SmugglersBay = new SeaOfThieves();
+/*		SeaOfThieves SmugglersBay = new SeaOfThieves();
 		SeaOfThieves SaltyIslands = new SeaOfThieves();
 		SeaOfThieves BlackSandAtoll = new SeaOfThieves();
 		SeaOfThieves MaraudersArch = new SeaOfThieves();
@@ -168,13 +173,25 @@ public class IfController
 		SeaOfThieves DevilsRidge = new SeaOfThieves();
 		SeaOfThieves BootyIsle = new SeaOfThieves();
 		SeaOfThieves LookoutPoint = new SeaOfThieves();
+*/
+		SeaOfThieves FirstIsland = new SeaOfThieves();
+		SeaOfThieves SecondIsland = new SeaOfThieves();
+		SeaOfThieves ThirdIsland = new SeaOfThieves();
 		
+		boolean lastIsland = false;
+		while (lastIsland = false)
+		{
+		String response = JOptionPane.showInputDialog(null, "What island did you visit?");
 		
+		lastIsland = JOptionPane.showInputDialog(null, "Was this your last island? (T/F)");
 		
-		
+		}
 		
 	}
 	
+	/**
+	 * asks the user all questions necessary to figure out the details of their last session.
+	 */
 	private void askUser()
 	{
 		//--------user hours played
